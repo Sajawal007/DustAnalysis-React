@@ -10,7 +10,7 @@ export default function App() {
       <div className="container">
         <div className="App">
           <div className="row">
-            <div className="col s8 grey">
+            <div className="col s6 grey">
               <h1 className="brand-logo">Dust Analysis</h1>
               <Menu />
               <div className="right">
