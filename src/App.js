@@ -10,12 +10,14 @@ export default function App() {
       <div className="container">
         <div className="App">
           <div className="row">
-            <div className="col s8">
+            <div className="col s8 grey">
               <h1 className="brand-logo">Dust Analysis</h1>
               <Menu />
+              <div className="right">
+                <BottomNav />
+              </div>
             </div>
           </div>
-          <BottomNav />
         </div>
       </div>
     </>
