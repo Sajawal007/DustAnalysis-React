@@ -4,8 +4,8 @@ import CustomButton from "./CustomButton";
 export default function BottomNav(props) {
   return (
     <>
-      <CustomButton text="BACK" />
-      <CustomButton text="Save Analysis" />
+      <CustomButton style="btn grey darken-1" text="BACK" />
+      <CustomButton style="btn blue" text="Save Analysis" />
     </>
   );
 }
